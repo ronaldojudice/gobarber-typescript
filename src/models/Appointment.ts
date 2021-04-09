@@ -8,12 +8,10 @@ class Appointment   {
 id: string;
 @Column()
 provider: string;
-@Column('timestamp with zone')
+@Column('timestamp')
 date: Date;
-
-
 }
-}
+
 
 export default Appointment;
 
