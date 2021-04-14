@@ -1,0 +1,11 @@
+{
+  "rules":{
+  "prettier/prettier":"error",
+  "@typescript-eslint/camelcase":"off",
+  "class-methods-use-this":"off"
+  },
+  "plugins":[
+    "@typescript-eslint",
+    "prettier"
+  ]
+}
